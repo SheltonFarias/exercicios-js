@@ -8,3 +8,22 @@
 */
 
 // Escreva sua solução aqui
+
+
+function imparPar(number) {
+  if(number % 2 == 0) {
+    console.log("Esse numero é par")
+  } else {
+    console.log("Esse numero é impar")
+  }
+}
+
+imparPar(10)
+console.log("-----linha-----")
+console.log("-----linha-----")
+imparPar(11)
+console.log("-----linha-----")
+console.log("-----linha-----")
+imparPar(9)
+
+// FEITOOOOOOO
