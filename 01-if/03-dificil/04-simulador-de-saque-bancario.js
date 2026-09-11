@@ -9,3 +9,10 @@
 */
 
 // Escreva sua solução aqui
+const bank = (saque, saldo) => {
+  if(saque > saldo){
+    console.log("Saldo insuficiente")
+  } else if (saque = saldo) {
+    
+  }
+}

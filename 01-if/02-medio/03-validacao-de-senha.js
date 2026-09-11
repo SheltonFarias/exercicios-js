@@ -8,3 +8,18 @@
 */
 
 // Escreva sua solução aqui
+
+const password = (pass) => {
+  let pin = 1234
+
+  if (pass === pin) {
+    console.log("Login feito com Sucesso")
+  } else {
+    console.log("Não foi possivel fazer login")
+  }
+} 
+
+password(1234)
+console.log("----------------")
+password(4321)
+

@@ -9,3 +9,7 @@
 */
 
 // Escreva sua solução aqui
+
+const hours = (n) => {
+  
+} 

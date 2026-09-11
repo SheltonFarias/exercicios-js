@@ -9,3 +9,11 @@
 */
 
 // Escreva sua solução aqui
+
+const triangle = (a1, a2, a3) => {
+  if(a1 + a2 > a3 && a1 + a3 > a2 && a2 + a3 > a1) {
+    console.log("Voce tem um Triangulo")
+  } else {
+    console.log("Isso não é um triangulo")
+  }
+}

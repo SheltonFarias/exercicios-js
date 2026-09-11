@@ -9,3 +9,15 @@
 */
 
 // Escreva sua solução aqui
+
+const imc = (n) => {
+  if(n >= 25 && n <= 29.9) {
+    console.log("Sobrepeso")
+  } else if(n >= 30) {
+    console.log("Obesidade")
+  } else {
+    console.log("Peso normal")
+  }
+}
+
+imc(30)
